@@ -1,1 +1,2 @@
 g++ main.cpp Jacobi.cpp -o JacobiApp.exe `wx-config --cxxflags --libs`
+pacman -S mingw-w64-ucrt-x86_64-gcc mingw-w64-ucrt-x86_64-make mingw-w64-ucrt-x86_64-wxWidgets mingw-w64-ucrt-x86_64-gmp mingw-w64-ucrt-x86_64-mpfr
